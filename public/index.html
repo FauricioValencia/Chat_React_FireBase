@@ -36,5 +36,19 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+      <script src="https://www.gstatic.com/firebasejs/5.5.4/firebase.js"></script>
+      <script>
+        // Initialize Firebase
+        var config = {
+          apiKey: "AIzaSyBdqsiEsqinby6l1OPmCuvBUEJ8cQHGfzw",
+          authDomain: "chat-react-98433.firebaseapp.com",
+          databaseURL: "https://chat-react-98433.firebaseio.com",
+          projectId: "chat-react-98433",
+          storageBucket: "chat-react-98433.appspot.com",
+          messagingSenderId: "178918255706"
+        };
+        firebase.initializeApp(config);
+      </script>
   </body>
 </html>
